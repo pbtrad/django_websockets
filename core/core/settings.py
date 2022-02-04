@@ -123,6 +123,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+
 CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
